@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:calculateHW7_1">
+    <LinearGradientBrush x:Key="buttonBrush">
+        <GradientStopCollection>
+            <GradientStop Color="IndianRed" Offset="0"/>
+            <GradientStop Color="Black" Offset="1"/>
+        </GradientStopCollection>
+    </LinearGradientBrush>
+    <Style x:Key="WindowStyle" TargetType="Window">
+        <Setter Property="Background" Value="{DynamicResource buttonBrush}"/>
+    </Style>
+    <Style TargetType="Button">
+        <Setter Property="Control.Foreground" Value="DeepPink"/>
+        <Setter Property="Height" Value="60"/>
+        <Setter Property="Width" Value="89"/>
+        <Setter Property="Control.Background" Value="PaleGoldenrod"/>
+        <Setter Property="Control.FontSize" Value="20"/>
+        <Setter Property="Control.FontWeight" Value="Bold"/>
+    </Style>
+    <Style x:Key="operations">
+        <Setter Property="Control.Foreground" Value="Indigo"/>
+        <Setter Property="Control.Height" Value="50"/>
+        <Setter Property="Control.Width" Value="35"/>
+        <Setter Property="Control.FontSize" Value="39"/>
+        <Setter Property="Control.FontWeight" Value="Bold"/>
+    </Style>
+</ResourceDictionary>

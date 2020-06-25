@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculateHW7_1", "calculateHW7_1\calculateHW7_1.csproj", "{D956B3A2-AC93-46DF-B1B7-B52724AB846C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D956B3A2-AC93-46DF-B1B7-B52724AB846C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D956B3A2-AC93-46DF-B1B7-B52724AB846C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D956B3A2-AC93-46DF-B1B7-B52724AB846C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D956B3A2-AC93-46DF-B1B7-B52724AB846C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E264727-0C2A-4378-B19E-451D77BB4E8F}
+	EndGlobalSection
+EndGlobal
